@@ -22,12 +22,12 @@ function Form() {
 }
 
 function PackingList() {
-  return <div className="list"></div>;
+  return <div className="list">LIST</div>;
 }
 
 function Stats() {
   return (
-    <footer>
+    <footer className="stats">
       <em>💼 You have X items on your list, and you already packed X (X%)</em>
     </footer>
   );
